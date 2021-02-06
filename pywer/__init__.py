@@ -1,3 +1,3 @@
 from .metrics import cer, wer
 
-__all__ = ["wer", "cer"]
+__all__ = ["cer", "wer"]
