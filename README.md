@@ -5,6 +5,7 @@ Pywer is a simple Python package to calculate word error rate (WER). Pywer can a
 calculate character error rate (CER).
 
 ## Install
+You can install pywer via pip.
 ```
 pip install pywer
 ```
