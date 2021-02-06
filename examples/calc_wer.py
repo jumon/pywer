@@ -1,14 +1,3 @@
-# pywer
-Pywer is a simple Python package to calculate word error rate (WER). Pywer can also
-calculate character error rate (CER).
-
-## Install
-```
-pip install pywer
-```
-
-## Usage
-```python
 import pywer
 
 references = [
@@ -25,4 +14,3 @@ hypotheses = [
 wer = pywer.wer(references, hypotheses)
 cer = pywer.cer(references, hypotheses)
 print(f"WER: {wer:.2f}, CER: {cer:.2f}")
-```
