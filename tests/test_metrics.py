@@ -1,6 +1,6 @@
 import pytest
-import pywer
 
+import pywer
 
 references = [
     "this is a simple python package",
