@@ -1,5 +1,6 @@
 # pywer
 ![pytest](https://github.com/jumon/pywer/workflows/pytest/badge.svg)
+![license](https://img.shields.io/github/license/jumon/pywer)
 
 Pywer is a simple Python package to calculate word error rate (WER). Pywer can also
 calculate character error rate (CER).
