@@ -29,3 +29,10 @@ wer = pywer.wer(references, hypotheses)
 cer = pywer.cer(references, hypotheses)
 print(f"WER: {wer:.2f}, CER: {cer:.2f}")
 ```
+
+## Development
+Install pre-commit hooks.
+```
+pip install pre-commit
+pre-commit install --install-hooks
+```
